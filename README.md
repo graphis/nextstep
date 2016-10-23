@@ -14,7 +14,7 @@ Determine if an application is allowed
 spctl -a /Path/To/program.app
 ~~~~
 
-# Approving Apps
+## Approving Apps
 
 To allow an app to run, we first assign it a label:
 ~~~~
