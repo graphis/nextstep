@@ -56,7 +56,7 @@ sudo mount -t msdos /dev/disk0s1 /Volumes/efi
 
 ### formatting:
 ~~~~
-diskutil partitionDisk /dev/disk4 1 GPT HFS+J "MacOSDisk" R
+diskutil partitionDisk /dev/disk[disk number] 1 GPT HFS+J "MacOSDisk" R
 ~~~~
 
 ## Misc
