@@ -46,3 +46,16 @@ sudo trimforce enable
 sudo trimforce disable
 ~~~~
 
+
+## Misc
+### Rebuild Font Cache
+
+Inatalling and removing fonts can corrupt a font cache, causing it to become slow over time. Rebuild the cache with the following terminal command.
+
+~~~~
+atsutil databases -remove
+~~~~
+
+
+
+
