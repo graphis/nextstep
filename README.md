@@ -31,5 +31,18 @@ We can block the entire label by using --disable:
 spctl --disable --label "ApprovedApps"
 ~~~~
 
+## Trim
 
+Check if trim is enabled:
+~~~~
+system_profiler SPSerialATADataType | grep 'TRIM'
+~~~~
+
+~~~~
+sudo trimforce enable
+~~~~
+
+~~~~
+sudo trimforce disable
+~~~~
 
