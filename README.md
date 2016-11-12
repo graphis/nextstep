@@ -48,13 +48,16 @@ sudo trimforce disable
 
 ## Utils
 
-Mounting EFI partition from terminal:
+### Mounting EFI partition from terminal:
 ~~~~
 sudo mkdir /Volumes/efi
 sudo mount -t msdos /dev/disk0s1 /Volumes/efi
 ~~~~
 
-
+### formatting:
+~~~~
+diskutil partitionDisk /dev/disk4 1 GPT HFS+J "MacOSDisk" R
+~~~~
 
 ## Misc
 ### Rebuild Font Cache
