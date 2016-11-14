@@ -127,3 +127,8 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 #### sending messages and opening windows for replies
 defaults write com.apple.Mail DisableSendAnimations -bool true
 defaults write com.apple.Mail DisableReplyAnimations -bool true
+
+
+high res display
+sudo defaults write /Library/Preferences/com.apple.windowserver.plist DisplayResolutionEnabled -bool true
+
