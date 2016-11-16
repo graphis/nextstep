@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.nextstep.StarupChime.plist</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>Disabled</key>
+	<false/>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/usr/bin/afplay</string>
+		<string>/Library/Sounds/Chime.aiff</string>
+	</array>
+</dict>
+</plist>
