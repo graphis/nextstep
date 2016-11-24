@@ -1,0 +1,5 @@
+First: Installing Kexts to get Wifi+BT working:
+Download the latest release from https://bitbucket.org/RehabMan/os-x-fake-pci-id/downloads
+Download the latest release from https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads
+Copy BrcmFirmwareData.kext, BrcmPatchRAM2.kext, FakePCIID_Broadcom_WiFi.kext and FakePCIID.kext to your EFI partition (EFI/Clover/kexts/10.11/) — Note that this is for Clover EFI boot only and you’ll need a different file or two for /Library/Extension usage which I’m not covering
+Reboot, 2.4Ghz WiFi and Bluetooth should work
