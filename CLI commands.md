@@ -24,6 +24,11 @@ http://www.insanelymac.com/forum/topic/312525-nvidia-web-driver-updates-for-maco
 https://www.tonymacx86.com/threads/guide-el-capitan-on-the-skylake-h170n-wifi.178197/
 
 
+bluetooth wifi
+https://rossfisher.me/2016/05/how-to-bcm94352z-for-hackintosh-including-5ghz-patch-handoff-and-hotspot/
+
+
+
 # nextstep
 
 cli commands for macos
