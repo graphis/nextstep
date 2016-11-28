@@ -5,7 +5,8 @@ To allow an app to run, we first assign it a label:
 sudo kextcache -system-prelinked-kernel
 sudo kextcache -system-caches
 
-
+fixing gpu
+https://www.tonymacx86.com/threads/solving-nvidia-driver-install-loading-problems.161256/
 sudo nano /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist
 
 ~~~~
