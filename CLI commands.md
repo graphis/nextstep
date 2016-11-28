@@ -10,6 +10,15 @@ https://www.tonymacx86.com/threads/solving-nvidia-driver-install-loading-problem
 sudo nano /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist
 
 ~~~~
+check
+
+skylake
+https://www.tonymacx86.com/threads/update-sierra-on-the-skylake-h170n-wifi.202847/
+
+https://www.tonymacx86.com/threads/solving-nvidia-driver-install-loading-problems.161256/
+http://www.insanelymac.com/forum/topic/312525-nvidia-web-driver-updates-for-macos-sierra-update-11032016/
+
+https://www.tonymacx86.com/threads/guide-el-capitan-on-the-skylake-h170n-wifi.178197/
 
 
 # nextstep
