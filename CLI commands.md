@@ -1,3 +1,16 @@
+## Rebuild kernel cache
+
+To allow an app to run, we first assign it a label:
+~~~~
+sudo kextcache -system-prelinked-kernel
+sudo kextcache -system-caches
+
+
+sudo nano /System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist
+
+~~~~
+
+
 # nextstep
 
 cli commands for macos
