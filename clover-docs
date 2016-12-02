@@ -1,0 +1,19 @@
+Can't disable SIP (El Capitan)
+
+To disable or enable SIP add the settings to your config.plist.
+
+Clover Configurator > Rt Variables > BooterConfig and CsrActiveConfig
+
+Relevant user options for SIP are as follows:
+csr-active-config 0x0 = SIP Enabled (Default)
+csr-active-config 0x3 = SIP Partially Disabled (Loads unsigned kexts)
+csr-active-config 0x67 = SIP Disabled completely
+
+Code (Text):
+<key>RtVariables</key>
+    <dict>
+        <key>CsrActiveConfig</key>
+        <string>0x3</string>
+        <key>BooterConfig</key>
+        <string>0x28</string>
+    </dict>
