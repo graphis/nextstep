@@ -21,3 +21,6 @@ Code (Text):
 
 4. Remove Boot/Arguments/nvda_drv=1 if necessary
 5. Save and reboot
+
+Please note that this new parameter is not necessary for some mobos with NVRAM support, for example the 9 series works fine, but the 100 series don't.
+
