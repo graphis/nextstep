@@ -7,7 +7,7 @@ There's a new method for enabling the NVIDIA Web Drivers in the latest versions 
 3. Edit as shown below:
 
 Code (Text):
-`
+```
 <key>SystemParameters</key>
     <dict>
         <key>InjectKexts</key>
@@ -17,7 +17,7 @@ Code (Text):
         <key>NvidiaWeb</key>
         <true/>
     </dict>
-`
+```
 
 4. Remove Boot/Arguments/nvda_drv=1 if necessary
 5. Save and reboot
