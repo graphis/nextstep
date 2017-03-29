@@ -61,3 +61,8 @@ darkwake=8 -> Power Nap Enabled (System Fully wakes, sometimes monitor come on, 
 darkwake=9
 darkwake=10 -> Power Nap Enabled (Fans & monitors do not come on, system.log show the times that the computer woke from sleep. Time Machine Backup are performed hourly in sleep mode)
 darkwake=11
+
+
+
+check for x86platformplugin
+kextstat | grep -i x86platformplugin
